@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Shop</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Book Shop</h1>
+    </header>
+    <main>
+        <section>
+            <div id="formDiv">
+                <form id="bookForm">
+                    <fieldset>
+                        <div class="input">
+                            <label for="bookName">Book Name:</label>
+                            <input type="text" id="bookName" required>
+                        </div>
+                        <div class="input">
+                            <label for="bookPrice">Book Price:</label>
+                            <select  id="bookPrice">
+                                <option value="100">100</option>
+                                <option value="500">500</option>
+                                <option value="1000">1000</option>
+                            </select>
+                        </div>
+                        <div id="buttons">
+                            <input type="submit" id="submit">
+                            <input type="submit" value="Clear All" id="clear">
+
+                        </div>
+                        
+                    </fieldset>
+                    
+                </form>
+            </div>
+            <div id="booksList">
+
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
